@@ -1,0 +1,127 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>83d7b8e0-77a9-4576-8373-8302425badff</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SourceWebPhysicalPath>..\website</SourceWebPhysicalPath>
+    <SourceWebProject>{8e120163-b7c3-40f7-9bb8-e9bbac622869}|website.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/website.csproj</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>dmssitecore</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>dmssitecore</AssemblyName>
+    <Name>dmssitecore</Name>
+    <RootNamespace>dmssitecore</RootNamespace>
+    <EnableCodeGeneration>True</EnableCodeGeneration>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
+    <FieldsForCodeGen>Title,Blob,Shared,Unversioned,Default value,Validation,ValidationText,__Long description,__Short description,__Display name,__Hidden,__Read Only,__Sortorder</FieldsForCodeGen>
+    <CodeGenTargetProject>CoreLib</CodeGenTargetProject>
+    <CodeGenFile>Models\Models.cs</CodeGenFile>
+    <BaseNamespace>CoreLib.Models</BaseNamespace>
+    <HeaderTransformFile>glassv3header.tt</HeaderTransformFile>
+    <BaseTransformFile>glassv3item.tt</BaseTransformFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <SitecoreWebUrl>http://dms72</SitecoreWebUrl>
+    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <DisableFileDeployment>False</DisableFileDeployment>
+    <SitecoreDeployFolder>C:\scmvc\trunk\website</SitecoreDeployFolder>
+    <SitecoreAccessGuid>ab5ce6d2-043b-457c-887d-51064cea6bb6</SitecoreAccessGuid>
+    <PackageName>dmssitecore</PackageName>
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>True</SeperateFilesAndItems>
+    <AddDateTimeToPackageName>True</AddDateTimeToPackageName>
+    <PackageAuthor>Praveen</PackageAuthor>
+    <PackagePublisher>Praveen</PackagePublisher>
+    <PackageReadme>
+    </PackageReadme>
+    <PackageVersion>1</PackageVersion>
+    <SitecoreAssemblyPath>C:\scmvc\trunk\website\bin</SitecoreAssemblyPath>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\dmssitecore_Debug.xml</ValidationSettingsFilePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\dmssitecore_Release.xml</ValidationSettingsFilePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\website\website.csproj">
+      <Project>{8e120163-b7c3-40f7-9bb8-e9bbac622869}</Project>
+      <Name>website</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Sitecore.%2a.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeGenTemplate Include="Code Generation Templates\generalextensions.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\GlassHeader.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\GlassItem.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\glassv3header.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\glassv3item.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\helpers.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\Inflector.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\ItemPaths.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\MDDocHeader.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\MDDocItem.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\stringextensions.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\VelirHeader.tt" />
+    <CodeGenTemplate Include="Code Generation Templates\VelirItem.tt" />
+  </ItemGroup>
+  <ItemGroup>
+    <SitecoreItem Include="sitecore\content.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\content\Home.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates.item">
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\User Defined.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\User Defined\test.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\User Defined\test\Section.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\User Defined\test\Section\First Name.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\User Defined\test\Section\Last Name.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" />
+</Project>
