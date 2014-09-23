@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://dms72/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Commands.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/ConnectionStrings.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/ConnectionStringsOracle.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/FieldTypes.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Icons.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/DataFolder.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/DataFolder.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/EventHandler.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/ForwardingSecurityEvents.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/ja-JP.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/LiveMode.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/ScalabilitySettings.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.AntiCsrf.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Buckets.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Buckets.Scaling.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Buckets.WarmupQueries.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.DefaultIndexConfiguration.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Index.Core.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Index.Master.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Index.Web.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Indexes.Sharded.Core.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Indexes.Sharded.Master.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.Lucene.Indexes.Sharded.Web.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ContentSearch.VerboseLogging.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.ItemWebApi.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Mvc.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.MvcAnalytics.config.disabled">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.MvcExperienceEditor.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.MvcSimulator.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.PipelineProfiling.config.disabled">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Publishing.DedicatedInstance.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Publishing.EventProvider.Async.config.disabled">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Publishing.Optimizations.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Publishing.Parallel.config.disabled">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Publishing.Recovery.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Shell.MarketingAutomation.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Speak.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Speak.ItemWebApi.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.Speak.Mvc.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.WebDAV.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/SitecoreSettings.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/SiteDefinition.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/WebDeploy.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/XslExtension.config.example">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/LanguageDefinitions.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/MimeTypes.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Portraits.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Prefetch/Common.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Prefetch/Core.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Prefetch/Master.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Prefetch/Webdb.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Prototypes.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Security/Domains.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Security/GlobalRoles.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/XamlSharp.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/22/2014 21:08:54</publishTime>
+    </File>
+    <File Include="bin/sandbox.dll">
+      <publishTime>09/23/2014 03:33:40</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/22/2014 21:13:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/22/2014 21:13:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/22/2014 21:13:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/22/2014 21:13:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/22/2014 21:13:58</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/22/2014 21:13:58</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/23/2014 03:31:25</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>09/23/2014 03:29:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/23/2014 03:33:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
