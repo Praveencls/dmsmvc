@@ -21,3 +21,8 @@ C:\scmvc\trunk\sandbox\bin\Sitecore.Mvc.dll
 C:\scmvc\trunk\sandbox\bin\HtmlAgilityPack.dll
 C:\scmvc\trunk\sandbox\bin\Sitecore.Logging.dll
 C:\scmvc\trunk\sandbox\bin\Sitecore.Zip.dll
+C:\scmvc\trunk\sandbox\bin\Glimpse.AspNet.dll
+C:\scmvc\trunk\sandbox\bin\Glimpse.Core.dll
+C:\scmvc\trunk\sandbox\bin\Glimpse.Mvc5.dll
+C:\scmvc\trunk\sandbox\bin\Sitecore.Glimpse.dll
+C:\scmvc\trunk\sandbox\bin\Sitecore.GlimpsePlugins.SitecoreContext.dll

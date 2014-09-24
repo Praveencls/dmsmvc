@@ -38,7 +38,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Glimpse.AspNet, Version=1.9.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\website\packages\Glimpse.AspNet.1.9.1\lib\net45\Glimpse.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Glimpse.Core">
+      <HintPath>..\website\packages\Glimpse.1.8.6\lib\net45\Glimpse.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Glimpse.Mvc5">
+      <HintPath>..\website\packages\Glimpse.Mvc5.1.5.3\lib\net45\Glimpse.Mvc5.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Sitecore.Glimpse">
+      <HintPath>..\website\packages\Glimpse.Sitecore7.2.0.0\lib\net45\Sitecore.Glimpse.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.GlimpsePlugins.SitecoreContext">
+      <HintPath>..\Library\Sitecore.GlimpsePlugins.SitecoreContext.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\Library\Sitecore\Sitecore.Kernel.dll</HintPath>
     </Reference>
@@ -93,6 +109,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GlimpseSecurityPolicy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -186,7 +203,8 @@
     <Content Include="App_Config\Include\Sitecore.Mvc.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Sitecore.MvcAnalytics.config.disabled" />
+    <Content Include="App_Config\Include\Sitecore.Glimpse.config" />
+    <None Include="App_Config\Include\Sitecore.MvcAnalytics.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Sitecore.MvcExperienceEditor.config" />

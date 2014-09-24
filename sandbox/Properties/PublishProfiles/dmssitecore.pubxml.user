@@ -84,6 +84,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_Config/Include/Sitecore.ContentSearch.VerboseLogging.config.example">
       <publishTime>09/23/2014 03:29:55</publishTime>
     </File>
+    <File Include="App_Config/Include/Sitecore.Glimpse.config">
+      <publishTime>09/25/2014 02:00:25</publishTime>
+    </File>
     <File Include="App_Config/Include/Sitecore.ItemWebApi.config">
       <publishTime>09/23/2014 03:29:55</publishTime>
     </File>
@@ -177,11 +180,41 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_Config/XamlSharp.config">
       <publishTime>09/23/2014 03:29:55</publishTime>
     </File>
+    <File Include="bin/Glimpse.AspNet.dll">
+      <publishTime>09/25/2014 02:00:11</publishTime>
+    </File>
+    <File Include="bin/Glimpse.Core.dll">
+      <publishTime>09/25/2014 01:29:20</publishTime>
+    </File>
+    <File Include="bin/Glimpse.Mvc5.dll">
+      <publishTime>09/25/2014 01:29:28</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>02/28/2014 20:26:48</publishTime>
+    </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>09/22/2014 21:08:54</publishTime>
     </File>
     <File Include="bin/sandbox.dll">
-      <publishTime>09/23/2014 03:33:40</publishTime>
+      <publishTime>09/25/2014 02:43:32</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Glimpse.dll">
+      <publishTime>09/25/2014 02:00:11</publishTime>
+    </File>
+    <File Include="bin/Sitecore.GlimpsePlugins.SitecoreContext.dll">
+      <publishTime>02/23/2012 18:35:56</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Kernel.dll">
+      <publishTime>09/23/2014 02:51:49</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Logging.dll">
+      <publishTime>02/28/2014 20:27:20</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Mvc.dll">
+      <publishTime>09/23/2014 02:51:48</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Zip.dll">
+      <publishTime>02/28/2014 20:27:36</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>09/22/2014 21:13:58</publishTime>
@@ -205,13 +238,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/23/2014 03:29:55</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>09/23/2014 03:31:25</publishTime>
+      <publishTime>09/25/2014 02:00:26</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>09/23/2014 03:29:02</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/23/2014 03:33:44</publishTime>
+      <publishTime>09/25/2014 02:46:57</publishTime>
     </File>
   </ItemGroup>
 </Project>
