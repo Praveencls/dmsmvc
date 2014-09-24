@@ -25,4 +25,3 @@ C:\scmvc\trunk\sandbox\bin\Sitecore.Logging.dll
 C:\scmvc\trunk\sandbox\bin\Sitecore.Zip.dll
 C:\scmvc\trunk\sandbox\obj\Release\sandbox.csprojResolveAssemblyReference.cache
 C:\scmvc\trunk\sandbox\bin\Sitecore.Glimpse.dll
-C:\scmvc\trunk\sandbox\bin\Sitecore.GlimpsePlugins.SitecoreContext.dll

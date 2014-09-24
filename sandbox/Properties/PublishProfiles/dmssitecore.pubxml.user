@@ -196,7 +196,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/22/2014 21:08:54</publishTime>
     </File>
     <File Include="bin/sandbox.dll">
-      <publishTime>09/25/2014 02:43:32</publishTime>
+      <publishTime>09/25/2014 02:58:19</publishTime>
     </File>
     <File Include="bin/Sitecore.Glimpse.dll">
       <publishTime>09/25/2014 02:00:11</publishTime>
