@@ -45,6 +45,10 @@
     <Reference Include="Glass.Mapper.Sc.CastleWindsor">
       <HintPath>..\mvc5\packages\Glass.Mapper.Sc.CastleWindsor.3.2.0.20\lib\net45\Glass.Mapper.Sc.CastleWindsor.dll</HintPath>
     </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Library\Sitecore\HtmlAgilityPack.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\mvc5\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
@@ -54,6 +58,7 @@
       <HintPath>..\Library\Sitecore\Sitecore.Kernel.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
@@ -68,7 +73,32 @@
   <ItemGroup>
     <Compile Include="App_Start\GlassMapperSc.cs" />
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
-    <Compile Include="Base\Class1.cs" />
+    <Compile Include="Base\lib\Data\Fields\Field\GetFriendlyValueExtension.cs" />
+    <Compile Include="Base\lib\Data\Fields\MultilistField\GetItemsBySourceOrderExtension.cs" />
+    <Compile Include="Base\lib\Data\Items\Item\ExistsInDatabaseExtension.cs" />
+    <Compile Include="Base\lib\Data\Items\Item\GetIconExtension.cs" />
+    <Compile Include="Base\lib\Data\Items\Item\GetPublishingTargetsExtension.cs" />
+    <Compile Include="Base\lib\Data\Items\Item\GetUrlExtension.cs" />
+    <Compile Include="Base\lib\Data\Items\Item\GetVersionLinksExtension.cs" />
+    <Compile Include="Base\lib\Data\Items\Item\HasPublishingRestrictionsExtension.cs" />
+    <Compile Include="Base\lib\Data\Items\Item\IsLatestExtension.cs" />
+    <Compile Include="Base\lib\Data\Items\Item\IsSameRevisionExtension.cs" />
+    <Compile Include="Base\lib\Data\Validators\FieldValidators\TagValidator.cs" />
+    <Compile Include="Base\lib\Diagnostics\Logger.cs" />
+    <Compile Include="Base\lib\Publishing\PublishingException.cs" />
+    <Compile Include="Base\lib\Publishing\PublishingTarget.cs" />
+    <Compile Include="Base\lib\Publishing\ReferencePublishingHelper.cs" />
+    <Compile Include="Base\lib\Shell\Framework\Commands\System\Debug.cs" />
+    <Compile Include="Base\lib\Sites\SiteContext\GetMediaHostExtension.cs" />
+    <Compile Include="Base\lib\Sites\SiteContext\GetNotFoundItemExtension.cs" />
+    <Compile Include="Base\lib\SystemString\NthIndexExtension.cs" />
+    <Compile Include="Base\lib\Web\SiteInfo\GetLanguageEmbeddingExtension.cs" />
+    <Compile Include="Base\lib\Web\UI\ErrorHelper.cs" />
+    <Compile Include="Base\lib\Web\UI\WebControls\ErrorRedirector.cs" />
+    <Compile Include="Base\lib\Web\Url.cs" />
+    <Compile Include="Base\lib\Web\WebUtil.cs" />
+    <Compile Include="Base\lib\Workflow\Actions\AddVersion.cs" />
+    <Compile Include="Base\lib\Workflow\Actions\ValidateApprover.cs" />
     <Compile Include="Base\SublayoutBase.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
