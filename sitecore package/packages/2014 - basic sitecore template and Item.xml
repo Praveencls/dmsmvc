@@ -1,0 +1,299 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>2014 - basic sitecore template and Item</PackageName>
+      <Author>PS</Author>
+      <Version>1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/content/Global/{324492AA-FEED-4715-845A-6D93DF07EC13}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Archive/{C814D45A-BFFA-49F4-B3CB-6A9146D61397}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Copyright/{1E17AB96-80DB-4BEE-8AE0-6D478DE3F895}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Footer/{2A7DA7C6-7099-4A17-A128-CEA8E72E2843}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Header/{59A5AEA7-0D03-4566-A627-5CA1E187FDF7}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/{78A4BC04-0784-4C33-93EA-35965A3CEF1D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Banner/{56F42696-0229-4BCC-8AE0-96CE9858AFE9}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Banner/Item1/{EFDA0DA0-C08A-45B5-99F5-AB587E0B541B}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Banner/Item2/{0D40D969-2591-41BD-A414-63713BB8BBCB}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Banner/Item3/{FD2F8399-8F47-488B-AC4F-2C9113176127}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Banner/Item4/{C3D1D8EC-64B4-455C-9140-939F99B635C2}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Banner/Item5/{9A3BD53D-E9F2-4939-B634-D820EC39900F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Most Likely/{CAA57281-8C3A-4921-8464-A4BCCE69E36E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Most Likely/Item Link/{0DE20ED1-79D6-4939-A7D2-65ADCB8D4F50}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Most Likely/Item Link/{15A3951B-3B6A-4A6E-8F97-028A039A7CCC}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Most Likely/Item Link/{25FDBC5F-E80F-4DA2-A7C7-8DDCA48EAAD4}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Most Likely/Item Link/{26CD9820-CDF0-4484-9BB8-06324E9744A2}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Most Likely/Item Link/{650AF7D5-D759-418D-BD16-F6713084151E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Most Likely/Item Link/{B015B19A-FD35-4152-9A9E-3CD968DA92B6}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Most Likely/Item Link/{BFE1F747-DFB5-4D0E-B270-42C4BF6C65B0}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Most Likely/Item Link/{C6B58F19-72E6-4816-B876-EF448B4793FB}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Most Likely/Item Link/{D6BC786B-52A4-47C1-B3EE-C6EC9DDE70E2}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Most Likely/Item Link/{FD0624AA-D1DE-456B-9BD5-DA945361A97C}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Promotional/{14C72500-341B-4EF9-B87B-88896A1A8629}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Promotional/Item Link/{05D3FB07-D64A-4F68-8DD9-9D6400B1FFF9}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Promotional/Item Link/{3BFF9F8E-9A55-4FA2-B1FF-21A6BCF1D10D}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Promotional/Item Link/{4C8C3C71-5161-441E-8CA1-A4B75BE07672}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Promotional/Item Link/{52BCFD65-9CD4-4371-B897-A7FE2BBF6070}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Promotional/Item Link/{5ABFDAA0-5AAB-4C37-903E-E2B8B89B2575}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Promotional/Item Link/{949615DF-B358-49D2-B847-C728A78BD4CE}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Promotional/Item Link/{9E7C9396-D757-4A51-BF0A-D61FE033ED3A}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Promotional/Item Link/{BFA9D81E-6921-43A3-BFE6-3EEDE38A5C80}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Promotional/Item Link/{C904316F-4B58-46C2-8AE1-0847E89E1B54}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/SlideContainer/Promotional/Item Link/{F398D15F-3849-4D42-B0DE-6B568737BDC0}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Sponser/{59B169B7-6AA2-4284-92E8-AC7870DBEE2B}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/{1DC92C73-83A1-4C9B-94B2-72677EEDF169}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/Contact-Us/{F3101B76-4136-4DBD-A5AB-2143889DAA76}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/error/{A8BBB124-265D-46E9-96DB-2455B39CDBDE}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/error/nolayout/{D2B24294-B8AE-4B14-9CE7-3D6F066D5994}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Home/error/notfound/{006090BE-8782-43B4-AE86-B34B16443974}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/{B29EE504-861C-492F-95A3-0D890B6FCA09}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/{421B84C7-E6A3-44A4-9419-0F6E4E78386B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/__Standard Values/{437A4EB8-5798-4E58-B312-450EC2B1C5AB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/{F8DD79F9-AE7F-4569-A87D-1984667C199B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Body Content/{61BF1CF7-CF6A-41CC-B795-53018AC278EA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Body Content/Body Content/{C42C0ADD-5A65-4FEB-AB41-289726938371}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Body Content/Sub Title/{A5C3F2D3-8959-4198-8DD6-D0199F6723F9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Body Content/Title/{F6B6499E-FEA5-4363-AD68-AC78ACD2E477}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Content/{C8ADCB2D-E8DF-4B38-B57E-B73CAE8D5520}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Content/Description/{8917BF6C-1796-43C0-9D32-426485120CCE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Content/Page Title/{9FDD0DFD-D91C-4D9D-8265-126AEA070B99}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Meta Tags/{991194AB-902E-438F-B9B1-96A699F364A6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Meta Tags/Custom Meta Tags/{CF695A45-7C38-4A2B-9930-7BC620841F7D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Meta Tags/Meta Description/{E912D63E-9801-46E5-B39F-88FCF36C33BD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Meta Tags/Meta Keywords/{2149A3A8-0353-4C3E-A1C3-12715360351B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Meta Tags/Meta Title/{79525E8D-3ED6-42C2-BE22-40EA30D0EA59}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Meta Tags/Robots No Follow/{847B9359-34B0-4A63-BFDA-46B5B31562E0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Base Templates/Base Page Item/Meta Tags/Robots No Index/{C30D79BF-DE19-43EA-B146-32670D5D3655}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/{0377EEA7-907C-44E1-85BD-11DB8584E2A4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Banner/{9C5898C3-2CA1-42C7-86D6-13EB65864FAF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Banner/Banner/{D17CB8C5-4B45-42C4-AE37-EF2CC8BB87D2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Banner/Banner/Banner Image/{B013CCAA-98C7-42C2-AD32-612A9EEC0114}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Banner/Banner/Banner Slogan/{85BBCCA7-45FA-4A5E-B2A1-2D4B96E0013B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Breadcrumb/{9501732A-4373-46DA-8539-AF2B43478190}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Breadcrumb/Breadcrumb/{BFFB0F4E-4185-4AEA-8B3E-28FEBD80F685}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Breadcrumb/Breadcrumb/Breadcrumb Title/{0F6C3C5B-E84E-43A0-BFAC-16EF832D7A6A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Footer/{B605FF3A-1E0D-4BBE-A378-EA2C2FB281A0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Footer/About Company References/{D67F1B46-041F-489B-80AE-B818505FA310}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Footer/About Company References/DataSource/{95376D0C-B23E-47F4-B947-09FF31A252E9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Footer/Follow References/{23DFCE65-10AC-4E25-ACD0-49E6BB09A17B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Footer/Follow References/DataSource/{680A800F-4858-45F1-8637-055E3211B61F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Footer/Footer Section/{38D0A20E-36E7-4AB7-86C5-2226410ACCDB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Footer/Footer Section/Contact Us/{A61F3057-766B-4687-A462-A467A132DE4D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Footer/Footer Section/News/{6852C2D6-F81D-4DA4-BB68-127416C80128}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Footer/Shop References/{4C10E502-74B3-4429-BE09-3096A9EDBE1C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Footer/Shop References/DataSource/{9CCF8C53-BB58-4C9E-B356-8B2F22481909}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Header/__Standard Values/{9606F998-1F25-4E67-AA98-817B15922CE1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Header/{136D3FFD-F316-4D5D-9A84-3253F1C6451E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Header/Header Section/{9581BCA2-F533-417B-9766-6F8D07C1E6CC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Header/Header Section/Country/{78036CB8-F0D7-43A0-896F-47E8D0B8E440}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Header/Header Section/Currency/{EC957C22-7F9D-45D2-9705-16EFD7AD6E9A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Header/Header Section/Language/{3253A40F-23AC-44D5-B02D-7B0355C31994}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Item Link/{D4A3A85F-DCFB-4449-99B8-D80701F40133}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Item Link/Item Link/{C547AD76-E05D-4DA7-AC84-516E1E0B0CA1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Item Link/Item Link/Description/{79536C96-DE91-43FD-907F-3A08CFC85DC0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Item Link/Item Link/Image/{6C76084B-5170-4B55-9976-0D7729A70ED7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Item Link/Item Link/Link/{6EE097DE-CDCB-4D32-9D9D-5BA44A47472B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Item Link/Item Link/ToolTip/{1F50D77E-9013-4900-A7B8-DDE12C7438D9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Navigation/__Standard Values/{2E2D15B2-F8DF-4BBD-9CD7-C1FF5D1DBB8C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Navigation/{45564950-F845-40AB-BA6C-8B4052EE795B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Navigation/Navigation/{EA63CC53-8504-4C70-A51A-D27B807F47F2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Navigation/Navigation/Include In Navigation/{DDF8D68F-EA10-4FFC-A487-BCC3A70B989F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Navigation/Navigation/Navigation Title/{4CE96805-2EB5-4B77-A170-7E81BD0314C5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Navigation/Navigation/Navigation Tooltip/{F1B2FDFC-EC4B-44E7-A800-E4D655E453AE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Navigation/Navigation/Show Children in Navigation/{060226FD-9676-43B7-BB75-333185A4FD30}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Navigation/Navigation/Sprite Background Position/{6298855E-F43D-4739-A4CB-E7C02F003028}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Overview/{1E92EAF0-3994-4932-B527-8038786B09CD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Overview/Overview/{8A3BFE25-09D9-4526-855B-6521A440437F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Overview/Overview/Overview Abstract/{D4C73D96-BC6C-49F1-B278-2CDDC77DB474}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Overview/Overview/Overview Image Max Width/{A4839A28-3669-43DF-85E7-9C17D96424E7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Page Title and Text/{93B79A77-B063-43C6-8C49-1F5D31A68531}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Page Title and Text/Page Title and Text/{31FA1939-BD52-4731-A7C3-CEDCA4C79D4E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Page Title and Text/Page Title and Text/Text/{63463BF7-C559-4DFA-9C52-6C80D6D99DEB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Page Title and Text/Page Title and Text/Title/{E676DCE7-CD93-49E8-A78D-A205BE2275B4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Reference/{56FA9999-3D5D-43CE-BF48-10DDFA00FAF7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Reference/Reference/{8683621F-781C-46C2-806D-51220FEB48DB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Reference/Reference/Document Title/{50B47779-EC52-48B3-9871-A58B3F085596}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Reference/Reference/Link/{759F1F0B-60E1-483B-921A-0E2856BE1AE6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/References and Attachments/{33AFBB3B-7B5E-4059-BFCC-0E61E0F9786A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/References and Attachments/References and Attachments/{6EE19EE3-F8C4-4F11-9796-E9DF972460ED}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/References and Attachments/References and Attachments/Attachments/{1F2C668F-2117-4ED0-B1FB-AA2D6767E25F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/References and Attachments/References and Attachments/Code For Copy/{65FEB3FE-13DB-4197-BF72-79E6F1D43419}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/References and Attachments/References and Attachments/External References/{A927D998-15E5-4F6C-8E2E-534CB4300759}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/References and Attachments/References and Attachments/Sitecore Package/{199F8500-A889-4254-9642-4DFB35AC38BA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Related/{5F43D945-2F07-4DC6-9456-5B46CF31D902}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Related/Related Items/{9C297707-418F-44E6-AE05-B55BA9CC0094}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Related/Related Items/Related Items/{E1473C03-65CD-4FB2-B37E-AAB196105A7B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Sidebar/{210798F8-F391-4BA9-8C0B-E8F46FF9BBB2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Sidebar/Sidebar/{5978A872-46EE-488A-9727-D4079D621EDE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Sidebar/Sidebar/Sidebar Text/{A202BBB1-A7DC-4046-8BAC-E979DD09E8DA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Sidebar/Sidebar/Sidebar Title/{6CDAA02B-C7A2-4EC9-80FE-382CE98D82A6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Simple Item/__Standard Values/{C5E5BCC4-D2E3-4BBB-B0E9-9968206C56E7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Simple Item/{DACA40EF-F5CB-4404-8EF7-9BF33DBAE130}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Slider/__Standard Values/{D8365A17-8920-479A-96B7-4E065953823E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Slider/{42A5E3E0-C08F-4142-927D-73AAE3780D13}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Tagging/{0B7E5134-0F74-49E2-A4F6-B546044AA5CB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Tagging/Tagging/{B2DC189C-90CF-4F79-93B9-DE937568DE0F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Tagging/Tagging/Categories/{C721EAD5-DA1D-44B8-AFC9-59D647392E48}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Tagging/Tagging/Contributors/{F6999F75-3421-4724-84AB-74F211E276B1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Tagging/Tagging/Keywords/{5BCF08F0-921D-4C55-BA47-AB6CCDF87CA6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Tagging/Tagging/Level/{1425F751-3A28-4C39-93F2-192AE48453A1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Tagging/Tagging/Prerequisites/{061F1396-25B1-4901-8A0E-0BB8CD3BE7C0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Title Abstract and Text/{69495907-825B-46AC-8712-E7E8602594D4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Title Abstract and Text/Main/{4E84299A-97F3-41F7-85F6-3F20F5526C3F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Title Abstract and Text/Main/Abstract/{AEAAB1A0-1065-4949-8017-E6E9B86F990F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Title Abstract and Text/Main/Body/{D3E4D736-B378-44D4-9525-203304561652}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Field Sections/Title Abstract and Text/Main/Title/{D87DCFA8-2C73-4A49-A44B-A5D7B55AE57A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Folder Templates/{2E3A0BFB-F044-4A58-9250-95F9A34D40B8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Folder Templates/Archive Folder/{43FD0957-2791-4634-AAC2-2843938AE764}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Folder Templates/Configuration Folder/{230C70C8-228C-4A26-9C69-077A5ECF7223}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Folder Templates/Configuration Folder/Site Settings/{84871F1A-A534-47C9-BFA6-5AC57CA719BB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Folder Templates/Global/__Standard Values/{34AF5211-794A-45A5-9655-76969795A841}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Folder Templates/Global/{E629BD60-9740-453F-A398-846533E53E10}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Folder Templates/SlideContainer/__Standard Values/{FF3D99A6-54F2-4075-A522-0383AD91A9C6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Folder Templates/SlideContainer/{4CB2A4F3-B43E-4157-8CB5-554437DA3AF9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Folder Templates/Tag/{3EF7106B-F722-4C9E-9294-AF75B191E265}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/{4877DB04-0179-4E31-B85E-D6E842528885}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Content Item/__Standard Values/{3AF165A8-6CC4-4CD5-B749-9D1CF18EC285}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Content Item/{9EA4A6B5-3954-403C-99E5-1149F161C326}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/__Standard Values/{0F427743-59B0-4585-8351-DDCB6C93AC89}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/{55AC0EE3-C4DF-4B15-893B-9078CA9D2363}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Banner Container/{EE912FE2-575A-4D61-8D21-BF119BF913EB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Banner Container/Banner/{C73F9D4E-7B89-4A84-84F5-9B22776C5EB6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Brand Container/{5C9D1CEB-FF81-47CF-8B29-E40AD3ABA9B9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Brand Container/Brand/{48CB73BD-0BB6-4DC6-96A8-56B0B2ABCFDC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Help/{D7A0F38F-831C-4ADF-A24E-D91BEDE8C728}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Help/Help Menu Title/{38B12A2B-613E-4ABC-880A-8566002D7E78}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Help/Help Menu Tooltip/{05E12EC8-5CB8-4695-A00B-5C1379EBACD0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Help/Show Help Buttons/{5F926D32-6440-4A6A-9011-40D8C876A016}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Help/Show Help Links/{5AEDB2A7-768A-447C-9EE2-94791575DD7F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Help/Show Split Top Menu/{FB859168-38F9-49F2-B268-D7D4AF4BD7EC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Likely Products/{960C6006-E606-4A07-8E9C-48C35637A5A0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Likely Products/Product/{351AA943-CEC3-45AD-9BD6-014EEE0C5F66}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Site/{5D3B33F9-5E45-4A29-91D5-599AC89D4606}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Site/Logo/{71293A02-EE02-4F1F-B29C-C8ED0978AA13}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Site/Name/{2AB8FF69-593E-4F9E-AB22-C564E58E8B25}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Site/Powered By Image/{3958D2FF-C23B-4946-A3FD-048133772FE6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Site/Powered By Link/{DC83E8ED-2E8F-4DA7-A881-14679FBE76A6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Root/Site/Theme/{B32116EE-4F54-4906-BF15-C7748C56C5E6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Section/__Standard Values/{1C9A08B9-C9B3-4EE8-8591-308365C932FF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Item Types/Site Section/{44A1527B-EB61-47E5-8EE1-B5C5EFE3DA05}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/{04862482-EC26-4549-93A3-914090D7697B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Copyright/{86FBC694-BDCE-4917-853E-8A90BFF33100}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Copyright/Copyright/{66089AB2-7C5A-4C5C-8322-3D94449FC7D7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Copyright/Copyright/Copyright Holder/{E3E880F7-062A-40DA-A542-C0C35133F977}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Copyright/Copyright/Copyright Text/{64836AC5-D392-4E24-A352-A09EC6398ABF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Copyright/Copyright/Link Text/{469FE81E-BDB5-49CE-9205-A2A1FEE45CC5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Copyright/Copyright/Start Year/{702B778A-F863-42AD-9CE0-0A542645A770}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Sidebar Message/__Standard Values/{01204143-BFE1-4D38-8BD8-4A2C660E5925}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Sidebar Message/{270BA2BE-451A-439F-8AA2-FAD276D4B3F8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Sponser/__Standard Values/{6A227480-53DD-45F5-9459-93A75AD4638D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Sponser/{4EF79EF4-B11A-4897-84D3-36BF8416996C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Sponser/Sponser/{0B6BBAE0-92D2-4AB2-B232-11CEFDE6F19A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Sponser/Sponser/Sponser Detail/{D278F05C-C5A4-4EF6-BEDA-633D3F7CA46F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Teaser/{9E33F1A1-56E0-43C0-A77D-54419DAB31DC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Teaser/Teaser/{C9B08534-390F-4738-9343-26F00FDA4483}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Teaser/Teaser/Teaser Abstract/{AB9BF69D-D0BF-4CDF-AFCD-2E04F981F1EE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Teaser/Teaser/Teaser Image/{B0EE74C0-D827-446D-A720-C107365718C2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Teaser/Teaser/Teaser Link/{9107BADF-3C11-499B-BB4B-37C7FA098BCF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Teaser/Teaser/Teaser Title/{3C5392BE-533B-4044-B7D3-6AD380F90CAE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Theme/{100E6F65-2DC2-4869-A0A3-FEC92CF7444B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Theme/Theme/{B8012177-746C-4D5D-94D5-60A7B5A27EB5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Theme/Theme/CSS File/{C072F196-9E94-4B6A-A7C3-30908F21BBA8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Toolbox Entry/{BE59A443-CB79-42CF-B4C9-44883F2AA922}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Toolbox Entry/Toolbox/{301A2371-2EE1-4BE2-A197-5FBD05E4BE87}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Toolbox Entry/Toolbox/Alternative Link/{0025C4EE-6B38-4174-A557-3CABD9E12EBD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Toolbox Entry/Toolbox/CSS Class/{6E5B8E10-0ABB-4DFD-8D6D-C1B3EB37E693}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Toolbox Entry/Toolbox/Open New Window/{F5022A9F-DEAB-4813-AD6E-4BD19A87D007}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Toolbox Entry/Toolbox/Toolbox Image/{8281E2BE-E694-4243-B15D-91D7029D1071}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Toolbox Entry/Toolbox/Toolbox Title/{AEC8EA51-3EE5-4EC9-B783-B814833A3D8E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Meta-Data/Toolbox Entry/Toolbox/Toolbox Tooltip/{F8710443-DCA7-4748-BC7D-21ABECCCE954}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Modules/{18095F69-D47F-41DE-8B07-66F2B0805213}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Modules/HotSpot/{038B34E7-1A5D-4BF7-BBDF-7E52E516E597}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Modules/Language Selector/{CC9C3108-E492-4DEF-8488-869D0E919FEA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Modules/Page Redirect/{3B01CB92-0724-4FB0-A9F7-32836C1BA7FA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Modules/Search Box/{E0D8E0A8-C869-4A5A-947B-100B523B9EF1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Modules/Slider/{78DDA729-D3C0-405B-9D19-F1205EB7A8E7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Modules/Slider/Slider/{02C666D0-1739-4ABE-8E6F-DBBD24F046C1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Modules/Slider/Slider/Slider Interval/{B9F4B0A5-85E5-4A7E-BB57-C010F8B2F0CE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Modules/Tab Container/{024770FD-BC8D-47C5-9984-E8F5B68F11F5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/{578878BE-09FE-4448-A406-B2B211D29C5E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/CSS Theme/{C6933E08-988E-4CB3-BD55-66BC23CFDE74}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Presentation Settings/{FC00794E-B0F2-4EFC-9C5B-C75B0FC3CCF8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Presentation Settings/Presentation Settings/{B84315DE-1F3B-4599-A3F1-D66CCBF3D083}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Presentation Settings/Presentation Settings/CSS Theme/{762BB458-BD9E-4A3B-A41E-E1105B6457D4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Presentation Settings/Presentation Settings/Mobile Logo/{0B808226-CA5A-459F-9326-975034E54983}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Presentation Settings/Presentation Settings/Peel Back Image/{D599D1F7-AA4D-4C32-BBCA-9C7D49D0DABC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Presentation Settings/Presentation Settings/Site Logo/{8F616784-59BC-4DF8-9CFC-03F563CC3BAF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Site Settings/{0A49A129-0C37-4170-8CE4-00BB3FCCA490}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Site Settings/Copyright/{5530A18F-0812-43E9-A519-2C88AC0A445A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Site Settings/Copyright/Copyright/{4FBCBF5E-6F80-4F8E-9415-B6A65C377669}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Site Settings/DMS Configuration/{0B6B7DE9-87D1-4280-8AF2-5035E142A48B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Site Settings/DMS Configuration/Profile Path/{4CDBDD7F-07ED-4DFF-8C34-8482FDF7A157}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Site Settings/Search/{10A889BC-2856-4EF5-A6FD-C215ACDB805F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Site Settings/Search/Comments/{58C1A276-9232-4099-87B7-0F262CA4CE16}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Site Settings/Search/Page Size/{7FD118F7-09C8-4B93-8A6A-2BF0E5BCEC53}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Site Settings/Search/Search Index/{1A934246-C75B-4EF9-91AD-670F4501CE3A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Site Settings/Security Options/{57F18883-A974-499A-8E8C-86971F8DDDF5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Site Settings/Security Options/Allow Online Registration/{7BF993C2-0A7E-4BCB-8D2F-8ECDDCEB93C0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Sitecore Query/{FC4D1CD0-886A-476A-9DB7-8D95F16343EE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Sitecore Query/Query/{A81EF78A-5C54-409E-B86E-4684180452C1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Sitecore Query/Query/Comment/{956D322E-29B7-4550-B50D-03FCCE37D630}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Sitecore Query/Query/Query/{35A04692-B7B4-4396-BC93-8F6EF8CE2150}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Slide Settings/__Standard Values/{BB60E13C-D406-46A0-8F4F-59BA5EA86F7A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Slide Settings/{D9397491-C2B9-4749-B5D6-4BF3214F5458}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Slide Settings/Slide Settings/{7FF0B616-BD59-47A8-939E-15C34F77BD3D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Slide Settings/Slide Settings/Height/{62F7FF07-B40F-4908-BABB-D5C52516B373}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Slide Settings/Slide Settings/Show Navigation Arrows/{0EC5AD90-5683-4787-AAEC-054A8286DEAC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Slide Settings/Slide Settings/Show Navigation Indexes/{770826E0-4FA6-4960-BD3C-079A2FDAE150}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Slide Settings/Slide Settings/Time Interval/{6CC45AFC-1973-4D61-8D97-0DBD6C555351}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Slide Settings/Slide Settings/Visible Area Image Count/{F69C705F-B0C6-42FB-9205-89C0A0A9A4FD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Slide Settings/Slide Settings/Weight/{6DB0D964-9BAC-4087-B550-AD6E6246485A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Version Information/{24A6369F-5AF4-4288-B7ED-7DF12EC3D5F2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Version Information/Version/{9FC67559-320D-4A64-B7E4-E73993DF0EF0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Version Information/Version/Launch Sitecore Version/{32ECFF28-FA64-4DEB-A461-BFDC1465C221}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Version Information/Version/Sitecore Version Image/{B061E80D-B731-4602-A3F4-891E5AD4BDC4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Version Information/Version/Version Details/{9140AE9B-107E-4DD5-B294-09186A0ABED5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Settings Templates/Version Information/Version/Version Title/{A5703621-1C5F-4B19-BECE-CEA5CED4E815}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Site Content/{C5931543-C66F-404C-BF68-B71A88A97E7A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Site Content/About Us Item/__Standard Values/{C9329EC3-533F-4290-884F-832BCDF8317A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Site Content/About Us Item/{FD67808A-F6AA-46D1-821D-B3B241F43917}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Site Content/Contact Us Item/__Standard Values/{0F58746D-391E-4A8A-B21C-53515BDF2651}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Site Content/Contact Us Item/{01CCE2B5-A968-4ACD-87C0-A5A16976508B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Site Sections/{679D670D-774A-4181-BFBA-8068D122930B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Site Sections/About Us Section/__Standard Values/{6A535590-1032-40AB-BB64-5D341F3CE95D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Site Sections/About Us Section/{A5A606E5-BF9E-4146-BCB9-529CF5DFFC83}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Site Sections/Contact Us Section/__Standard Values/{4689AC1B-A345-4C6E-915F-90438061A23A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Site Sections/Contact Us Section/{4F3DBB6F-1BA3-452E-84CB-4AC92AF79E5C}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>template and items</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
