@@ -8,4 +8,88 @@
   <Item ItemPath="/sitecore/templates/User Defined/test/Section" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
   <Item ItemPath="/sitecore/templates/User Defined/test/Section/First Name" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
   <Item ItemPath="/sitecore/templates/User Defined/test/Section/Last Name" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/content/Global Component Folder" ItemIcon="/temp/IconCache/Applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/content/Site Component Folder" ItemIcon="/temp/IconCache/People/32x32/cubes.png" />
+  <Item ItemPath="/sitecore/content/Site A" ItemIcon="/temp/IconCache/People/16x16/cubes_green.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Branch" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Callouts" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Item Type" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Meta Data" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Site Component Folder/Site A" ItemIcon="/temp/IconCache/Network/16x16/earth.png" />
+  <Item ItemPath="/sitecore/content/Site A/Home" ItemIcon="/temp/IconCache/Core3/32x32/home_green_h.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/Base" ItemIcon="/temp/IconCache/Business/16x16/note.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/CalloutBase" ItemIcon="/temp/IconCache/business/16x16/note.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/HomeBase" ItemIcon="/temp/IconCache/business/16x16/note.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/MetaBase" ItemIcon="/temp/IconCache/business/16x16/note.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/PageBase" ItemIcon="/temp/IconCache/business/16x16/note.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/SiteBase" ItemIcon="/temp/IconCache/business/16x16/note.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Branch/Site Branch" ItemIcon="/temp/IconCache/software/32x32/branch.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Callouts/BlankCallout" ItemIcon="/temp/IconCache/Applications/32x32/document_new.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Callouts/Promo" ItemIcon="/temp/IconCache/Applications/16x16/star_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Callouts/Text With Image Callout" ItemIcon="/temp/IconCache/Applications/32x32/photo_scenery.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Banner" ItemIcon="/temp/IconCache/Applications/16x16/scroll.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/BodyContent" ItemIcon="/temp/IconCache/Applications/32x32/text_rich.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/BodyTitle" ItemIcon="/temp/IconCache/WordProcessing/32x32/header.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Breadcrumb" ItemIcon="/temp/IconCache/Software/32x32/step.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Css" ItemIcon="/temp/IconCache/People/16x16/palette.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Menu" ItemIcon="/temp/IconCache/Control/32x32/menu_b.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Overviews" ItemIcon="/temp/IconCache/Applications/32x32/text_align_justified.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Related" ItemIcon="/temp/IconCache/business/32x32/paperclip.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Script" ItemIcon="/temp/IconCache/Applications/32x32/gears.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Seo" ItemIcon="/temp/IconCache/People/16x16/medal.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Sidebar" ItemIcon="/temp/IconCache/Software/32x32/layout_east.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Banner Folder" ItemIcon="/temp/IconCache/Multimedia/32x32/open_image.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Callout Folder" ItemIcon="/temp/IconCache/Applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Carousel Folder" ItemIcon="/temp/IconCache/Multimedia/32x32/open_video_h.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Dictionary Folder" ItemIcon="/temp/IconCache/Applications/32x32/folder2_yellow.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Footer Links Folder" ItemIcon="/temp/IconCache/Applications/32x32/folder_into.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Global Component Folder" ItemIcon="/temp/IconCache/Applications/32x32/folder_cubes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Header Links Folder" ItemIcon="/temp/IconCache/Applications/32x32/folder_out.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Promo Folder" ItemIcon="/temp/IconCache/Applications/32x32/folder_new.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Resource Folder" ItemIcon="/temp/IconCache/Applications/32x32/folder_add.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Site Component Folder" ItemIcon="/temp/IconCache/People/32x32/cubes.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Site Resource Folder" ItemIcon="/temp/IconCache/Network/16x16/earth.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Social Media Folder" ItemIcon="/temp/IconCache/Applications/32x32/folder_network.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Folders/Text Callout Folder" ItemIcon="/temp/IconCache/Applications/32x32/folder_red.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Item Type/Content Item" ItemIcon="/temp/IconCache/People/16x16/cube_green.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Item Type/Site Root" ItemIcon="/temp/IconCache/Core3/32x32/home_green_h.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Meta Data/Site Settings" ItemIcon="/temp/IconCache/Database/32x32/connect.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Meta Data/SocialMedia" ItemIcon="/temp/IconCache/Business/32x32/handshake.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Meta Data/StandardText" ItemIcon="/temp/IconCache/Control/32x32/edit_mask_b_h.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pages/Detail Pages" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/content/Site A/Home/New About Us and Blog Landing" ItemIcon="/temp/IconCache/Applications/32x32/document_connection.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Meta Data/StandardText/Standard Text" ItemIcon="/temp/IconCache/control/32x32/edit_mask_b_h.png" />
+  <Item ItemPath="/sitecore/content/Site A/Home/New About Us and Blog Landing/New About Us and Blog Sub Page" ItemIcon="/temp/IconCache/Business/32x32/message.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/HomeBase/Site/Name" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/HomeBase/Site/Logo" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/HomeBase/Site/Search Label" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/HomeBase/Site/Copyright" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/MetaBase/Meta Tags/Meta Title" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/MetaBase/Meta Tags/Meta Keywords" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/MetaBase/Meta Tags/Meta Description" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/MetaBase/Meta Tags/Robots No Index" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/PageBase/Navigation/Navigation Title" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/PageBase/Navigation/Include In Navigation" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Callouts/Promo/Promo Spot/Promo Image" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Callouts/Text With Image Callout/Text With Image Callout/Callout Text" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Callouts/Text With Image Callout/Text With Image Callout/Callout Image" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Callouts/VideoCallout/Video Callout/Video Script" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Banner/Banner/Banner Image" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Banner/Banner/Banner Text" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Banner/Banner/Banner Link" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Banner/Banner/Show Banner" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/BodyTitle/Body Title/Content Title" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Menu/Menu/Hide In Menu" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Script/Script/Top Scripts" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Seo/Seo/Google Analytics" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Tagging/Tagging/Level" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Tagging/Tagging/Categories" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Meta Data/SocialMedia/Social Media/Text" ItemIcon="/temp/IconCache/Applications/32x32/Document.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Pages" ItemIcon="/temp/IconCache/Applications/16x16/folder.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Base/TitleBase" ItemIcon="/temp/IconCache/business/16x16/note.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Callouts/VideoCallout" ItemIcon="/temp/IconCache/Multimedia/32x32/new_video.png" />
+  <Item ItemPath="/sitecore/templates/User Defined/Field Section/Tagging" ItemIcon="/temp/IconCache/Business/32x32/barcode.png" />
 </ItemIconCache>

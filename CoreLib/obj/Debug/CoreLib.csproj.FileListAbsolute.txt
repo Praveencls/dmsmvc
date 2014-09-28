@@ -19,3 +19,6 @@ C:\scmvc\trunk\CoreLib\bin\Debug\Glass.Mapper.Sc.xml
 C:\scmvc\trunk\CoreLib\bin\Debug\Glass.Mapper.Sc.CastleWindsor.xml
 C:\scmvc\trunk\CoreLib\bin\Debug\Microsoft.Web.Infrastructure.xml
 C:\scmvc\trunk\CoreLib\bin\Debug\Sitecore.Kernel.dll
+C:\scmvc\trunk\CoreLib\bin\Debug\CustomItemGenerator.dll
+C:\scmvc\trunk\CoreLib\bin\Debug\Glass.Mapper.Sc.Mvc.dll
+C:\scmvc\trunk\CoreLib\bin\Debug\Glass.Mapper.Sc.Mvc.xml

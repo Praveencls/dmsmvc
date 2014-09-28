@@ -25,3 +25,15 @@ C:\scmvc\trunk\sandbox\bin\Glimpse.AspNet.dll
 C:\scmvc\trunk\sandbox\bin\Glimpse.Core.dll
 C:\scmvc\trunk\sandbox\bin\Glimpse.Mvc5.dll
 C:\scmvc\trunk\sandbox\bin\Sitecore.Glimpse.dll
+C:\scmvc\trunk\sandbox\bin\ITHit.WebDAV.Server.dll
+C:\scmvc\trunk\sandbox\bin\Mvp.Xml.dll
+C:\scmvc\trunk\sandbox\bin\Sitecore.NVelocity.dll
+C:\scmvc\trunk\sandbox\bin\Newtonsoft.Json.dll
+C:\scmvc\trunk\sandbox\bin\Castle.Core.dll
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.dll
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.dll
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.Mvc.dll
+C:\scmvc\trunk\sandbox\bin\Castle.Core.xml
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.xml
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.xml
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.Mvc.xml
