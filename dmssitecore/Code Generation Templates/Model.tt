@@ -1,0 +1,358 @@
+﻿// For more information see http://www.glass.lu
+// Model.TT version 1.0.2.0
+
+
+<#@ template hostspecific="True" debug="True" #>
+<#@ assembly name="System.Core.dll" #>
+<#@ assembly name="%ProgramFiles%\Hedgehog Development\Team Development for Sitecore (VS2012)\HedgehogDevelopment.SitecoreCommon.Data.dll" #>
+<#@ assembly name="%ProgramFiles%\Hedgehog Development\Team Development for Sitecore (VS2012)\HedgehogDevelopment.SitecoreCommon.Data.Parser.dll" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Globalization" #>
+<#@ import namespace="System.Text.RegularExpressions" #>
+<#@ import namespace="HedgehogDevelopment.SitecoreCommon.Data" #>
+<#@ import namespace="HedgehogDevelopment.SitecoreCommon.Data.Items" #>
+<#@ import namespace="HedgehogDevelopment.SitecoreCommon.Data.Parser" #>
+
+<#
+
+
+
+Init();
+
+GetBoilerplate();
+
+foreach(TemplateItem item in Templates){
+switch (GetTypeOfTemplate(item))
+{
+case Types.Abstract:
+GetClassDefinition("partial", item);
+break;
+case Types.Concrete:
+GetClassDefinition("partial", item);
+break;
+}
+}
+#>
+
+<#+
+
+//The root namespace for your templates. Must end with a '.'
+private string RootNamespace = "CoreLib.Models.";
+
+//The root path to the templates to create using the T4 template
+private string RootTemplatePath = "/sitecore/templates/User Defined/";
+
+
+private string BaseDir;
+private List<TemplateItem> Templates, Interfaces, AbstractClasses, AllClasses, ConcreteClasses;
+private Dictionary<string, List<TemplateItem>> Namespaces = new Dictionary<string, List<TemplateItem>>();
+
+private void Init()
+{
+// Put the relative path to your templates node of your TDS project
+BaseDir = Host.ResolvePath(@"C:\scmvc\trunk\dmssitecore\sitecore\templates");
+
+SerializedTreeDataSource tds = new SerializedTreeDataSource(BaseDir);
+Templates = tds.Templates.Where(t=>t.Path.StartsWith(RootTemplatePath)).OrderBy( t=> t.Path).ToList();
+Interfaces = new List<TemplateItem>();
+AllClasses = Templates.Except(Interfaces).ToList();
+    AbstractClasses = AllClasses.Where(t => GetTypeOfTemplate(t) == Types.Abstract).ToList();
+ConcreteClasses = Templates.Except(Interfaces).Except(AbstractClasses).ToList();
+
+foreach(TemplateItem t in Templates)
+{
+string ns = GetNamespace(t);
+if (!Namespaces.ContainsKey(ns))
+{
+Namespaces.Add(ns, new List<TemplateItem>());
+}
+Namespaces[ns].Add(t);
+}
+
+}
+#>
+
+<#+
+private enum Types {Interface, Abstract, Concrete}
+
+private Types GetTypeOfTemplate(TemplateItem item)
+{
+if (item.Name.StartsWith("Base"))
+return Types.Abstract;
+else
+return Types.Concrete;
+}
+ 
+
+// Gets the Content field type for the Sitecore field
+public static string GetFieldType(TemplateFieldItem field)
+{
+if (field != null && field.Fields["Type"] != null)
+    {
+switch(field.Fields["Type"].ToLower())
+{
+case "tristate":
+return "TriState";
+case "checkbox":
+return "bool";
+
+case "date":
+case "datetime":
+return "DateTime";
+
+case "number":
+return "float";
+
+case "integer":
+return "int";
+
+case "treelist":
+case "treelistex":
+case "treelist descriptive":
+case "checklist":
+case "multilist":
+                return string.Empty;
+
+case "grouped droplink":
+case "droplink":
+case "lookup":
+case "droptree":
+case "reference":
+case "tree":
+return "Guid";
+
+case "file":
+return "File";
+
+case "image":
+return "Image";
+
+case "rich text":
+case "html":
+return "string";
+
+case "general link":
+return "Link";
+
+case "single-line text":
+case "multi-line text":
+case "frame":
+case "text":
+case "memo":
+case "droplist":
+case "grouped droplist":
+case "valuelookup":
+return "string";
+default:
+return string.Empty;
+}
+}
+    else
+{
+throw new Exception("There is no 'Type' field on the " + field.Name + " field.");
+}
+}
+
+private string GetBases(TemplateItem item)
+{
+List<string> inherits = new List<string>();
+
+// get base templates
+var baseTemplates = AllClasses.Where(i=> item.BaseTemplateIds.Contains(i.ID)).Select(i=>GetNamespace(i)+".I"+TitleCase(i.Name) + "");
+if (baseTemplates.Count() > 0)
+{
+// we can only have one base class
+
+inherits.AddRange(baseTemplates);
+}
+   
+
+if (inherits.Count > 0)
+{
+var ints = string.Join(", global::", inherits.Select(x=> x).ToArray());
+return ", global::"+ ints;
+}
+return " ";
+}
+
+/// Gets all fields from the current template and its bases grouped by template.section name
+private Dictionary<string, List<TemplateFieldItem>> GetAllFieldsForTemplate(TemplateItem item){
+Dictionary<string, List<TemplateFieldItem>> dic = new Dictionary<string, List<TemplateFieldItem>>();
+
+// own fields
+foreach(TemplateSectionItem si in item.Sections){
+string sectionName = string.Concat(item.Name, '-', si.Name);
+List<TemplateFieldItem> fields = new List<TemplateFieldItem>();
+foreach(TemplateFieldItem ti in si.OwnFields){
+fields.Add(ti);
+}
+dic.Add(sectionName, fields);
+}
+return dic;
+}
+
+private string GetNamespace(TemplateItem item)
+{
+// trim initial path and replace with default Namspace
+string ns = System.Text.RegularExpressions.Regex.Replace(item.Path, RootTemplatePath, RootNamespace, System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+
+// turn into segments and remove the item from the path
+List<string> segments = ns.Split("/".ToCharArray(), StringSplitOptions.RemoveEmptyEntries).ToList();
+segments.RemoveAt(segments.Count-1);
+ns = string.Join(".", segments);
+ns = ns.Trim(".".ToCharArray());
+return ns.Replace(" ", string.Empty);
+}
+
+public string TitleCase(string name)
+{
+name = Regex.Replace(name, "([a-z](?=[A-Z])|[A-Z](?=[A-Z][a-z]))", "$1 ");
+name = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(name);
+name = Regex.Replace(name, @"[^a-zA-Z0-9]", String.Empty);
+name = Regex.Replace(name, @"(^[0-9])", "Z$1");
+
+return name;
+}
+#>
+
+<#+private void CreateField(bool isInterface, TemplateItem item){#>
+
+<#+
+if (!isInterface) // for classes go recursively and generate all fields from all inherited interfaces
+{
+var usedInterfaces = AllClasses.Where(i=> item.BaseTemplateIds.Contains(i.ID));
+foreach(var i in usedInterfaces)
+{
+CreateField(false, i);
+}
+#>
+
+// fields for template <#= item.Name #>
+
+<#+
+}
+Dictionary<string, List<TemplateFieldItem>> fieldsBySection = GetAllFieldsForTemplate(item);
+    foreach(string section in fieldsBySection.Keys){
+#>
+    <#+
+foreach (TemplateFieldItem fieldItem in fieldsBySection[section]){
+bool hasAttribute = true;
+string fieldType = GetFieldType(fieldItem);
+
+if(string.IsNullOrEmpty(fieldType))
+continue;
+
+string fieldName = fieldItem.Name;
+string propertyName = TitleCase(fieldName);
+if (fieldType == "Guid"){
+propertyName += "ID";
+hasAttribute = false;
+}
+else if (fieldType == "List<Guid>"){
+propertyName += "Ids";
+hasAttribute = false;
+}
+
+
+
+if (hasAttribute){#>
+/// <summary>
+/// <para>Title: <#= fieldItem.Fields["Title"] ?? string.Empty #></para>
+/// <para>Field Name: <#=fieldName#></para>
+/// <para>Field Type: <#=fieldItem.Fields["Type"]#></para>
+/// <para>Help: <#= fieldItem.Fields["__Short description"] ?? string.Empty#></para>
+/// </summary>
+[SitecoreField("<#=fieldName#>")]
+<#+if(!isInterface){#>public virtual <#+}#><#=fieldType#> <#=propertyName#> { get; set; }
+
+<#+}#>
+<#+}#>
+<#+}#>
+<#+}#>
+
+<#+private void GetClassDefinition(string modifier, TemplateItem item){#>
+namespace <#=GetNamespace(item)#>
+{
+
+    /// <summary>
+/// <para>Path: <#= item.Path ?? string.Empty #></para>
+/// <para>Help: <#= item.Fields["__Short description"] ?? string.Empty#></para>
+/// </summary>
+    public partial interface I<#=TitleCase(item.Name)#> : global::<#=RootNamespace#>IGlassBase <#=GetBases(item)#>
+{
+
+<#+CreateField(true, item); #>
+
+}
+
+/// <summary>
+/// <para>Path: <#= item.Path ?? string.Empty #></para>
+/// <para>Help: <#= item.Fields["__Short description"] ?? string.Empty#></para>
+/// </summary>
+[SitecoreType(TemplateId="<#=item.ID#>", AutoMap = true)]
+public <#=modifier#> class <#=TitleCase(item.Name)#> : global::<#=RootNamespace#>GlassBase, I<#=TitleCase(item.Name)#>
+{
+
+<#+CreateField(false, item); #>
+
+}
+}
+<#+}#>
+
+<#+private void GetBoilerplate(){#>
+#pragma warning disable 1591
+#pragma warning disable 0108
+//------------------------------------------------------------------------------
+// <auto-generated>
+// This code was generated by Team Development for Sitecore.
+//
+// Changes to this file may cause incorrect behavior and will be lost if
+// the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Glass.Sitecore.Mapper.Configuration.Attributes;
+using Glass.Sitecore.Mapper.Configuration;
+using Glass.Sitecore.Mapper.FieldTypes;
+
+using Sitecore.Globalization;
+
+
+namespace <#= RootNamespace.Substring(0, RootNamespace.Length-1)#>
+{
+
+public interface IGlassBase{
+
+[SitecoreId]
+Guid Id{ get; }
+
+[SitecoreInfo(SitecoreInfoType.Language)]
+        Language Language{ get; }
+
+        [SitecoreInfo(SitecoreInfoType.Version)]
+        int Version { get; }
+
+}
+
+public abstract class GlassBase : IGlassBase{
+
+[SitecoreId]
+public virtual Guid Id{ get; private set;}
+
+[SitecoreInfo(SitecoreInfoType.Language)]
+        public virtual Language Language{ get; private set; }
+
+        [SitecoreInfo(SitecoreInfoType.Version)]
+        public virtual int Version { get; private set; }
+}
+}
+
+<#+}#>
