@@ -52,6 +52,9 @@
     <Reference Include="Glass.Mapper.Sc.Mvc">
       <HintPath>..\website\packages\Glass.Mapper.Sc.Mvc-5.3.2.0.41\lib\net45\Glass.Mapper.Sc.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="Glass.Mapper.Sc.Razor">
+      <HintPath>..\website\packages\Glass.Mapper.Sc.Razor.3.0.9.13\lib\net45\Glass.Mapper.Sc.Razor.dll</HintPath>
+    </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Library\Sitecore\HtmlAgilityPack.dll</HintPath>
@@ -59,6 +62,9 @@
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\mvc5\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="RazorEngine">
+      <HintPath>..\website\packages\RazorEngine.3.2.0\lib\net40\RazorEngine.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Kernel, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -68,6 +74,10 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\website\packages\Microsoft.AspNet.Razor.2.0.30506.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -80,6 +90,7 @@
   <ItemGroup>
     <Compile Include="App_Start\GlassMapperSc.cs" />
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
+    <Compile Include="App_Start\GlassMapperScRazor.cs" />
     <Compile Include="Base\lib\Data\Fields\Field\GetFriendlyValueExtension.cs" />
     <Compile Include="Base\lib\Data\Fields\MultilistField\GetItemsBySourceOrderExtension.cs" />
     <Compile Include="Base\lib\Data\Items\Item\ExistsInDatabaseExtension.cs" />
@@ -112,18 +123,46 @@
     <Compile Include="Base\SublayoutParameterHelper.cs" />
     <Compile Include="Interface\Base\IGlassBase.cs" />
     <Compile Include="Interface\IBanner.cs" />
+    <Compile Include="Interface\IBase.cs" />
+    <Compile Include="Interface\IBodyContent.cs" />
+    <Compile Include="Interface\IBodyTitle.cs" />
+    <Compile Include="Interface\IBreadcrumb.cs" />
+    <Compile Include="Interface\IContentItem.cs" />
+    <Compile Include="Interface\ICss.cs" />
+    <Compile Include="Interface\IHomeBase.cs" />
+    <Compile Include="Interface\IMenu.cs" />
+    <Compile Include="Interface\IMetaBase.cs" />
+    <Compile Include="Interface\IOverviews.cs" />
+    <Compile Include="Interface\IPageBase.cs" />
+    <Compile Include="Interface\IRelated.cs" />
+    <Compile Include="Interface\IScript.cs" />
+    <Compile Include="Interface\ISeo.cs" />
+    <Compile Include="Interface\ISidebar.cs" />
+    <Compile Include="Interface\ISiteRoot.cs" />
     <Compile Include="Interface\ISiteSection.cs" />
+    <Compile Include="Interface\ISiteSettings.cs" />
+    <Compile Include="Interface\ITagging.cs" />
     <Compile Include="Models\Banner.cs" />
     <Compile Include="Models\Base\GlassBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Data\Packages\Glass.Mapper.Sc.Razor.Package.xml" />
     <Content Include="Models\Models.txt" />
+    <Content Include="Sitecore Modules\Shell\Glass\Mapper\Razor\BehindRazor.xml" />
+    <Content Include="Sitecore Modules\Shell\Glass\Mapper\Razor\DynamicRazor.xml" />
+    <Content Include="Sitecore Modules\Shell\Glass\Mapper\Razor\TypedRazor.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
     <None Include="App_Config\Include\Glass.Mapper.Sc.Mvc.config" />
+    <None Include="App_Config\Include\Glass.Mapper.Sc.Razor.config" />
+    <None Include="Data\Packages\Glass.Mapper.Sc.Razor.Package.zip" />
     <None Include="packages.config" />
+    <None Include="Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\BehindRazorTemplate.cshtml.cs.temp" />
+    <None Include="Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\BehindRazorTemplate.cshtml.temp" />
+    <None Include="Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\DynamicRazorTemplate.cshtml.temp" />
+    <None Include="Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\TypedRazorTemplate.cshtml.temp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -22,3 +22,10 @@ C:\scmvc\trunk\CoreLib\bin\Debug\Sitecore.Kernel.dll
 C:\scmvc\trunk\CoreLib\bin\Debug\CustomItemGenerator.dll
 C:\scmvc\trunk\CoreLib\bin\Debug\Glass.Mapper.Sc.Mvc.dll
 C:\scmvc\trunk\CoreLib\bin\Debug\Glass.Mapper.Sc.Mvc.xml
+C:\scmvc\trunk\CoreLib\bin\Debug\Glass.Mapper.Sc.Razor.dll
+C:\scmvc\trunk\CoreLib\bin\Debug\RazorEngine.dll
+C:\scmvc\trunk\CoreLib\bin\Debug\System.Web.Razor.dll
+C:\scmvc\trunk\CoreLib\bin\Debug\Glass.Mapper.Sc.Razor.xml
+C:\scmvc\trunk\CoreLib\bin\Debug\RazorEngine.pdb
+C:\scmvc\trunk\CoreLib\bin\Debug\RazorEngine.xml
+C:\scmvc\trunk\CoreLib\bin\Debug\System.Web.Razor.xml
