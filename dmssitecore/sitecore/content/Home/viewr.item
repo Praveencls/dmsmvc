@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {E2A6FC74-52C4-4553-8BEC-7B4548CB875E}
+database: master
+path: /sitecore/content/Home/viewr
+parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+name: viewr
+master: {00000000-0000-0000-0000-000000000000}
+template: {76036F5E-CBCE-46D1-AF0A-4143F9B557AA}
+templatekey: Sample Item
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 423
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{B257477F-6C7C-4F0B-A32D-A60D0B562973}"><r uid="{43222D12-08C9-453B-AE96-D406EBB95126}"><p:d /></r><r uid="{4C590616-858C-49BD-BDC5-AB9EE8C82B0A}" s:id="{C3B1AD31-CFEE-4B86-BF3C-916007CC7B95}" s:ph="content" /><r uid="{CF044AD9-0332-407A-ABDE-587214A2C808}"><p:d /></r><r uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}"><p:d /></r></d></r>
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}
+----version----
+language: en
+version: 1
+revision: b41abb6e-7f24-4611-a43d-2b82258fa14b
+
+----field----
+field: {75577384-3C97-45DA-A847-81B00500E250}
+name: Title
+key: title
+content-length: 5
+
+viewr
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140930T001334
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b41abb6e-7f24-4611-a43d-2b82258fa14b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140930T013712:635476378325783727
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}
