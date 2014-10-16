@@ -1,5 +1,3 @@
-C:\scmvc\trunk\sandbox\bin\sandbox.dll
-C:\scmvc\trunk\sandbox\bin\sandbox.pdb
 C:\scmvc\trunk\sandbox\bin\Microsoft.Web.Infrastructure.dll
 C:\scmvc\trunk\sandbox\bin\System.Web.Helpers.dll
 C:\scmvc\trunk\sandbox\bin\System.Web.Mvc.dll
@@ -13,8 +11,6 @@ C:\scmvc\trunk\sandbox\bin\System.Web.Razor.xml
 C:\scmvc\trunk\sandbox\bin\System.Web.WebPages.xml
 C:\scmvc\trunk\sandbox\bin\System.Web.WebPages.Deployment.xml
 C:\scmvc\trunk\sandbox\bin\System.Web.WebPages.Razor.xml
-C:\scmvc\trunk\sandbox\obj\Release\sandbox.dll
-C:\scmvc\trunk\sandbox\obj\Release\sandbox.pdb
 C:\scmvc\trunk\sandbox\bin\Glimpse.AspNet.dll
 C:\scmvc\trunk\sandbox\bin\Glimpse.Core.dll
 C:\scmvc\trunk\sandbox\bin\Glimpse.Mvc5.dll
@@ -25,3 +21,19 @@ C:\scmvc\trunk\sandbox\bin\Sitecore.Logging.dll
 C:\scmvc\trunk\sandbox\bin\Sitecore.Zip.dll
 C:\scmvc\trunk\sandbox\obj\Release\sandbox.csprojResolveAssemblyReference.cache
 C:\scmvc\trunk\sandbox\bin\Sitecore.Glimpse.dll
+C:\scmvc\trunk\sandbox\bin\Castle.Core.dll
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.dll
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.dll
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.Mvc.dll
+C:\scmvc\trunk\sandbox\bin\ITHit.WebDAV.Server.dll
+C:\scmvc\trunk\sandbox\bin\Mvp.Xml.dll
+C:\scmvc\trunk\sandbox\bin\Sitecore.NVelocity.dll
+C:\scmvc\trunk\sandbox\bin\Newtonsoft.Json.dll
+C:\scmvc\trunk\sandbox\bin\Castle.Core.xml
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.xml
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.xml
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.Mvc.xml
+C:\scmvc\trunk\sandbox\bin\website.dll
+C:\scmvc\trunk\sandbox\bin\website.pdb
+C:\scmvc\trunk\sandbox\obj\Release\website.dll
+C:\scmvc\trunk\sandbox\obj\Release\website.pdb

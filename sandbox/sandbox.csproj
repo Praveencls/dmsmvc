@@ -219,6 +219,7 @@
     <Content Include="App_Config\Include\Sitecore.Glimpse.config" />
     <Content Include="App_Config\Include\Glass.Mapper.Sc.CodeFirst.config.exclude" />
     <Content Include="App_Config\Include\Glass.Mapper.Sc.Mvc.config" />
+    <Content Include="App_Config\Include\linkManager.config" />
     <None Include="App_Config\Include\Sitecore.MvcAnalytics.config" />
   </ItemGroup>
   <ItemGroup>
@@ -321,6 +322,12 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CoreLib\CoreLib.csproj">
+      <Project>{09ca37c0-ff90-40f3-a33a-35b631aa2458}</Project>
+      <Name>CoreLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

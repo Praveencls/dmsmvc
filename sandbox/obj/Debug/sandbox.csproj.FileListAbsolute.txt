@@ -1,5 +1,3 @@
-C:\scmvc\trunk\sandbox\bin\sandbox.dll
-C:\scmvc\trunk\sandbox\bin\sandbox.pdb
 C:\scmvc\trunk\sandbox\bin\Microsoft.Web.Infrastructure.dll
 C:\scmvc\trunk\sandbox\bin\System.Web.Helpers.dll
 C:\scmvc\trunk\sandbox\bin\System.Web.Mvc.dll
@@ -14,8 +12,6 @@ C:\scmvc\trunk\sandbox\bin\System.Web.WebPages.xml
 C:\scmvc\trunk\sandbox\bin\System.Web.WebPages.Deployment.xml
 C:\scmvc\trunk\sandbox\bin\System.Web.WebPages.Razor.xml
 C:\scmvc\trunk\sandbox\obj\Debug\sandbox.csprojResolveAssemblyReference.cache
-C:\scmvc\trunk\sandbox\obj\Debug\sandbox.dll
-C:\scmvc\trunk\sandbox\obj\Debug\sandbox.pdb
 C:\scmvc\trunk\sandbox\bin\Sitecore.Kernel.dll
 C:\scmvc\trunk\sandbox\bin\Sitecore.Mvc.dll
 C:\scmvc\trunk\sandbox\bin\HtmlAgilityPack.dll
@@ -37,3 +33,14 @@ C:\scmvc\trunk\sandbox\bin\Castle.Core.xml
 C:\scmvc\trunk\sandbox\bin\Glass.Mapper.xml
 C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.xml
 C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.Mvc.xml
+C:\scmvc\trunk\sandbox\bin\website.dll
+C:\scmvc\trunk\sandbox\bin\website.pdb
+C:\scmvc\trunk\sandbox\obj\Debug\website.dll
+C:\scmvc\trunk\sandbox\obj\Debug\website.pdb
+C:\scmvc\trunk\sandbox\bin\CoreLib.dll
+C:\scmvc\trunk\sandbox\bin\Castle.Windsor.dll
+C:\scmvc\trunk\sandbox\bin\WebActivatorEx.dll
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.CastleWindsor.dll
+C:\scmvc\trunk\sandbox\bin\CoreLib.pdb
+C:\scmvc\trunk\sandbox\bin\Castle.Windsor.xml
+C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.CastleWindsor.xml
