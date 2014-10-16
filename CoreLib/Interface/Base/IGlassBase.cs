@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using Glass.Mapper.Sc.Configuration;
-using Glass.Mapper.Sc.Configuration.Attributes;
-using Sitecore.Globalization;
-
-namespace CoreLib.Interface.Base
+﻿namespace CoreLib.Interface.Base
 {
+    using System;
+    using System.Collections.Generic;
+    using Glass.Mapper.Sc.Configuration;
+    using Glass.Mapper.Sc.Configuration.Attributes;
+    using Sitecore.Globalization;
+
     [SitecoreType(AutoMap = true)]
     public interface IGlassBase
     {

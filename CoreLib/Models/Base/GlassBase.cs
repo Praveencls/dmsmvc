@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CoreLib.Interface.Base;
-using Glass.Mapper.Sc;
-using Sitecore.Data.Items;
-using Sitecore.Globalization;
-
-namespace CoreLib.Models.Base
+﻿namespace CoreLib.Models.Base
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using CoreLib.Interface.Base;
+    using Glass.Mapper.Sc;
+    using Sitecore.Data.Items;
+    using Sitecore.Globalization;
+
     public class GlassBase : IGlassBase
     {
         #region IGlassBase Members
