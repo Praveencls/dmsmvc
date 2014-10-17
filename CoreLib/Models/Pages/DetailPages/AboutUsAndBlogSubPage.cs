@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Glass.Mapper.Sc.Configuration.Attributes;
+using CoreLib.Interface.Base;
+using CoreLib.Models.Base;
+using CoreLib.Interface.Pages.DetailPages;
 
 namespace CoreLib.Models.Pages.DetailPages
 {

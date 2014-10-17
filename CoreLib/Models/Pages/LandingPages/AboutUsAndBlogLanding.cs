@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CoreLib.Interface.Pages.LandingPages;
+using CoreLib.Models.Base;
 using Glass.Mapper.Sc.Configuration.Attributes;
+using Glass.Mapper.Sc.Fields;
 
 namespace CoreLib.Models.Pages.LandingPages
 {
@@ -12,7 +15,7 @@ namespace CoreLib.Models.Pages.LandingPages
     /// <para>Help: </para>
     /// </summary>
     [SitecoreType(TemplateId = "d4e7f499-30ef-4313-9d5c-fe386f479dab", AutoMap = true)]
-    public partial class AboutUsAndBlogLanding : global::CoreLib.Models.GlassBase, IAboutUsAndBlogLanding
+    public partial class AboutUsAndBlogLanding : GlassBase, IAboutUsAndBlogLanding
     {
 
 

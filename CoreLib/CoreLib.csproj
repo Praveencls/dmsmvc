@@ -133,17 +133,17 @@
     <Compile Include="Interface\Callouts\IPromo.cs" />
     <Compile Include="Interface\Callouts\ITextWithImageCallout.cs" />
     <Compile Include="Interface\Callouts\IVideoCallout.cs" />
-    <Compile Include="Interface\Field Section\IBodyContent.cs" />
-    <Compile Include="Interface\Field Section\IBodyTitle.cs" />
-    <Compile Include="Interface\Field Section\IBreadcrumb.cs" />
-    <Compile Include="Interface\Field Section\ICss.cs" />
-    <Compile Include="Interface\Field Section\IMenu.cs" />
-    <Compile Include="Interface\Field Section\IOverviews.cs" />
-    <Compile Include="Interface\Field Section\IRelated.cs" />
-    <Compile Include="Interface\Field Section\IScript.cs" />
-    <Compile Include="Interface\Field Section\ISeo.cs" />
-    <Compile Include="Interface\Field Section\ISidebar.cs" />
-    <Compile Include="Interface\Field Section\ITagging.cs" />
+    <Compile Include="Interface\FieldSection\IBodyContent.cs" />
+    <Compile Include="Interface\FieldSection\IBodyTitle.cs" />
+    <Compile Include="Interface\FieldSection\IBreadcrumb.cs" />
+    <Compile Include="Interface\FieldSection\ICss.cs" />
+    <Compile Include="Interface\FieldSection\IMenu.cs" />
+    <Compile Include="Interface\FieldSection\IOverviews.cs" />
+    <Compile Include="Interface\FieldSection\IRelated.cs" />
+    <Compile Include="Interface\FieldSection\IScript.cs" />
+    <Compile Include="Interface\FieldSection\ISeo.cs" />
+    <Compile Include="Interface\FieldSection\ISidebar.cs" />
+    <Compile Include="Interface\FieldSection\ITagging.cs" />
     <Compile Include="Interface\Folders\IBannerFolder.cs" />
     <Compile Include="Interface\Folders\ICalloutFolder.cs" />
     <Compile Include="Interface\Folders\ICarouselFolder.cs" />
@@ -159,14 +159,14 @@
     <Compile Include="Interface\Folders\ISocialMediaFolder.cs" />
     <Compile Include="Interface\Folders\ITextCalloutFolder.cs" />
     <Compile Include="Interface\Folders\IVideoCalloutFolder.cs" />
-    <Compile Include="Interface\Item Types\IContentItem.cs" />
-    <Compile Include="Interface\Item Types\ISiteRoot.cs" />
-    <Compile Include="Interface\Item Types\ISiteSection.cs" />
-    <Compile Include="Interface\Meta Data\IBlog.cs" />
-    <Compile Include="Interface\Meta Data\ISiteSettings.cs" />
-    <Compile Include="Interface\Meta Data\ISocialMedia.cs" />
-    <Compile Include="Interface\Meta Data\IStandardText.cs" />
-    <Compile Include="Interface\Meta Data\ITag.cs" />
+    <Compile Include="Interface\ItemTypes\IContentItem.cs" />
+    <Compile Include="Interface\ItemTypes\ISiteRoot.cs" />
+    <Compile Include="Interface\ItemTypes\ISiteSection.cs" />
+    <Compile Include="Interface\MetaData\IBlog.cs" />
+    <Compile Include="Interface\MetaData\ISiteSettings.cs" />
+    <Compile Include="Interface\MetaData\ISocialMedia.cs" />
+    <Compile Include="Interface\MetaData\IStandardText.cs" />
+    <Compile Include="Interface\MetaData\ITag.cs" />
     <Compile Include="Interface\Pages\Class1.cs" />
     <Compile Include="Interface\Pages\DetailPages\IAboutUsAndBlogSubPage.cs" />
     <Compile Include="Interface\Pages\LandingPages\IAboutUsAndBlogLanding.cs" />
@@ -184,18 +184,18 @@
     <Compile Include="Models\Callouts\Promo.cs" />
     <Compile Include="Models\Callouts\TextWithImageCallout.cs" />
     <Compile Include="Models\Callouts\VideoCallout.cs" />
-    <Compile Include="Interface\Field Section\IBanner.cs" />
-    <Compile Include="Models\Field Section\Banner.cs" />
-    <Compile Include="Models\Field Section\BodyContent.cs" />
-    <Compile Include="Models\Field Section\BodyTitle.cs" />
-    <Compile Include="Models\Field Section\Breadcrumb.cs" />
-    <Compile Include="Models\Field Section\Css.cs" />
-    <Compile Include="Models\Field Section\Menu.cs" />
-    <Compile Include="Models\Field Section\Related.cs" />
-    <Compile Include="Models\Field Section\Script.cs" />
-    <Compile Include="Models\Field Section\Seo.cs" />
-    <Compile Include="Models\Field Section\Sidebar.cs" />
-    <Compile Include="Models\Field Section\Tagging.cs" />
+    <Compile Include="Interface\FieldSection\IBanner.cs" />
+    <Compile Include="Models\FieldSection\Banner.cs" />
+    <Compile Include="Models\FieldSection\BodyContent.cs" />
+    <Compile Include="Models\FieldSection\BodyTitle.cs" />
+    <Compile Include="Models\FieldSection\Breadcrumb.cs" />
+    <Compile Include="Models\FieldSection\Css.cs" />
+    <Compile Include="Models\FieldSection\Menu.cs" />
+    <Compile Include="Models\FieldSection\Related.cs" />
+    <Compile Include="Models\FieldSection\Script.cs" />
+    <Compile Include="Models\FieldSection\Seo.cs" />
+    <Compile Include="Models\FieldSection\Sidebar.cs" />
+    <Compile Include="Models\FieldSection\Tagging.cs" />
     <Compile Include="Models\Folders\BannerFolder.cs" />
     <Compile Include="Models\Folders\CalloutFolder.cs" />
     <Compile Include="Models\Folders\CarouselFolder.cs" />
@@ -211,16 +211,17 @@
     <Compile Include="Models\Folders\SocialMediaFolder.cs" />
     <Compile Include="Models\Folders\TextCalloutFolder.cs" />
     <Compile Include="Models\Folders\VideoCalloutFolder.cs" />
-    <Compile Include="Models\Item Types\ContentItem.cs" />
-    <Compile Include="Models\Item Types\SiteRoot.cs" />
-    <Compile Include="Models\Item Types\SiteSection.cs" />
-    <Compile Include="Models\Meta Data\Blog.cs" />
-    <Compile Include="Models\Meta Data\SiteSettings.cs" />
-    <Compile Include="Models\Meta Data\SocialMedia.cs" />
-    <Compile Include="Models\Meta Data\StandardText.cs" />
-    <Compile Include="Models\Meta Data\Tag.cs" />
+    <Compile Include="Models\ItemTypes\ContentItem.cs" />
+    <Compile Include="Models\ItemTypes\SiteRoot.cs" />
+    <Compile Include="Models\ItemTypes\SiteSection.cs" />
+    <Compile Include="Models\MetaData\Blog.cs" />
+    <Compile Include="Models\MetaData\SiteSettings.cs" />
+    <Compile Include="Models\MetaData\SocialMedia.cs" />
+    <Compile Include="Models\MetaData\StandardText.cs" />
+    <Compile Include="Models\MetaData\Tag.cs" />
     <Compile Include="Models\Pages\DetailPages\AboutUsAndBlogSubPage.cs" />
     <Compile Include="Models\Pages\LandingPages\AboutUsAndBlogLanding.cs" />
+    <Compile Include="Models\Rule\Class1.cs" />
     <Compile Include="Pipelines\HttpBeginRequest\LanguageResolver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -242,9 +243,7 @@
     <None Include="Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\DynamicRazorTemplate.cshtml.temp" />
     <None Include="Sitecore Modules\Shell\Glass\Mapper\Razor\Templates\TypedRazorTemplate.cshtml.temp" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\Rule\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

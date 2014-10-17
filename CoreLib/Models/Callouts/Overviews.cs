@@ -1,4 +1,4 @@
-﻿using CoreLib.Interface.Field_Section;
+﻿using CoreLib.Interface.FieldSection;
 using CoreLib.Models.Base;
 using Glass.Mapper.Sc.Configuration.Attributes;
 

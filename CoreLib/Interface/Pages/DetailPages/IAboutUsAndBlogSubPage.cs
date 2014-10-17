@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CoreLib.Interface.Base;
-using CoreLib.Interface.Item_Types;
+using CoreLib.Interface.ItemTypes;
 
 namespace CoreLib.Interface.Pages.DetailPages
 {
