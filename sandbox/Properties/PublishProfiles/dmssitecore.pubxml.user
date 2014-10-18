@@ -196,10 +196,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/23/2014 01:15:29</publishTime>
     </File>
     <File Include="bin/CoreLib.dll">
-      <publishTime>10/06/2014 21:14:59</publishTime>
+      <publishTime>10/18/2014 11:49:45</publishTime>
     </File>
     <File Include="bin/CoreLib.pdb">
-      <publishTime>10/06/2014 21:14:58</publishTime>
+      <publishTime>10/18/2014 11:49:44</publishTime>
     </File>
     <File Include="bin/Glass.Mapper.dll">
       <publishTime>09/23/2014 01:15:08</publishTime>
@@ -283,16 +283,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/23/2014 01:15:28</publishTime>
     </File>
     <File Include="bin/website.dll">
-      <publishTime>10/06/2014 21:19:02</publishTime>
+      <publishTime>10/18/2014 11:50:01</publishTime>
     </File>
     <File Include="bin/website.pdb">
-      <publishTime>10/06/2014 21:19:02</publishTime>
+      <publishTime>10/18/2014 11:50:00</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>09/30/2014 21:34:19</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>09/28/2014 06:56:45</publishTime>
+    </File>
+    <File Include="Rendering/Home.cshtml">
+      <publishTime>10/18/2014 11:48:29</publishTime>
     </File>
     <File Include="Views/HelloWorld/Index.cshtml">
       <publishTime>09/30/2014 22:23:46</publishTime>
@@ -301,13 +304,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/30/2014 00:14:29</publishTime>
     </File>
     <File Include="Views/PageHeader.cshtml">
-      <publishTime>08/15/2014 14:32:40</publishTime>
+      <publishTime>10/18/2014 11:49:30</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>09/23/2014 03:29:02</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>10/16/2014 09:01:53</publishTime>
+      <publishTime>10/17/2014 12:46:32</publishTime>
     </File>
   </ItemGroup>
 </Project>

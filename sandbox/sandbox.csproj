@@ -315,7 +315,6 @@
     <Content Include="Views\main.cshtml" />
     <Content Include="Views\PageHeader.cshtml" />
     <Content Include="Views\HelloWorld\Index.cshtml" />
-    <Content Include="Rendering\Home.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
