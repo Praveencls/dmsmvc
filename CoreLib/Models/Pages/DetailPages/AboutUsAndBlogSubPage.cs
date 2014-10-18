@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Glass.Mapper.Sc.Configuration.Attributes;
-using CoreLib.Interface.Base;
+﻿using CoreLib.Interface.Pages.DetailPages;
 using CoreLib.Models.Base;
-using CoreLib.Interface.Pages.DetailPages;
+using Glass.Mapper.Sc.Configuration.Attributes;
 
 namespace CoreLib.Models.Pages.DetailPages
 {
@@ -17,10 +11,7 @@ namespace CoreLib.Models.Pages.DetailPages
     [SitecoreType(TemplateId = "dee8f8db-f79d-4cd4-ac00-f4feb4560e55", AutoMap = true)]
     public partial class AboutUsAndBlogSubPage : GlassBase, IAboutUsAndBlogSubPage
     {
-
-
         // fields for template Base
-
 
         // fields for template MetaBase
 
@@ -69,7 +60,6 @@ namespace CoreLib.Models.Pages.DetailPages
         [SitecoreField("Robots No Index")]
         public virtual bool RobotsNoIndex { get; set; }
 
-
         // fields for template PageBase
 
         /// <summary>
@@ -99,12 +89,8 @@ namespace CoreLib.Models.Pages.DetailPages
         [SitecoreField("Navigation Title")]
         public virtual string NavigationTitle { get; set; }
 
-
         // fields for template Content Item
 
-
         // fields for template About Us and Blog Sub Page
-
-
     }
 }

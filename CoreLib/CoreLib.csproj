@@ -121,6 +121,8 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Base\SublayoutParameterHelper.cs" />
+    <Compile Include="Configuration\Config.cs" />
+    <Compile Include="Extensions.cs" />
     <Compile Include="Interface\Base\IBase.cs" />
     <Compile Include="Interface\Base\ICalloutBase.cs" />
     <Compile Include="Interface\Base\IGlassBase.cs" />
@@ -171,6 +173,8 @@
     <Compile Include="Interface\Pages\DetailPages\IAboutUsAndBlogSubPage.cs" />
     <Compile Include="Interface\Pages\LandingPages\IAboutUsAndBlogLanding.cs" />
     <Compile Include="Interface\Rule\Class1.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="Logging\Logger.cs" />
     <Compile Include="Models\Base\Base.cs" />
     <Compile Include="Models\Base\CalloutBase.cs" />
     <Compile Include="Models\Base\GlassBase.cs" />

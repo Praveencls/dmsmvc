@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CoreLib.Interface.Pages.LandingPages;
+﻿using CoreLib.Interface.Pages.LandingPages;
 using CoreLib.Models.Base;
 using Glass.Mapper.Sc.Configuration.Attributes;
 using Glass.Mapper.Sc.Fields;
@@ -17,10 +12,7 @@ namespace CoreLib.Models.Pages.LandingPages
     [SitecoreType(TemplateId = "d4e7f499-30ef-4313-9d5c-fe386f479dab", AutoMap = true)]
     public partial class AboutUsAndBlogLanding : GlassBase, IAboutUsAndBlogLanding
     {
-
-
         // fields for template Base
-
 
         // fields for template HomeBase
 
@@ -69,7 +61,6 @@ namespace CoreLib.Models.Pages.LandingPages
         [SitecoreField("Tole Free Number")]
         public virtual string ToleFreeNumber { get; set; }
 
-
         // fields for template MetaBase
 
         /// <summary>
@@ -117,7 +108,6 @@ namespace CoreLib.Models.Pages.LandingPages
         [SitecoreField("Robots No Index")]
         public virtual bool RobotsNoIndex { get; set; }
 
-
         // fields for template PageBase
 
         /// <summary>
@@ -146,7 +136,6 @@ namespace CoreLib.Models.Pages.LandingPages
         /// </summary>
         [SitecoreField("Navigation Title")]
         public virtual string NavigationTitle { get; set; }
-
 
         // fields for template Banner
 
@@ -186,7 +175,6 @@ namespace CoreLib.Models.Pages.LandingPages
         [SitecoreField("Show Banner")]
         public virtual bool ShowBanner { get; set; }
 
-
         // fields for template BodyContent
 
         /// <summary>
@@ -197,7 +185,6 @@ namespace CoreLib.Models.Pages.LandingPages
         /// </summary>
         [SitecoreField("Content Text")]
         public virtual string ContentText { get; set; }
-
 
         // fields for template BodyTitle
 
@@ -219,7 +206,6 @@ namespace CoreLib.Models.Pages.LandingPages
         [SitecoreField("Content Title")]
         public virtual string ContentTitle { get; set; }
 
-
         // fields for template Breadcrumb
 
         /// <summary>
@@ -231,9 +217,7 @@ namespace CoreLib.Models.Pages.LandingPages
         [SitecoreField("Breadcrumb Title")]
         public virtual string BreadcrumbTitle { get; set; }
 
-
         // fields for template Css
-
 
         // fields for template Menu
 
@@ -255,7 +239,6 @@ namespace CoreLib.Models.Pages.LandingPages
         [SitecoreField("Menu Title")]
         public virtual string MenuTitle { get; set; }
 
-
         // fields for template Overviews
 
         /// <summary>
@@ -267,12 +250,9 @@ namespace CoreLib.Models.Pages.LandingPages
         [SitecoreField("Abstract")]
         public virtual string Abstract { get; set; }
 
-
         // fields for template Related
 
-
         // fields for template Script
-
 
         // fields for template Seo
 
@@ -294,7 +274,6 @@ namespace CoreLib.Models.Pages.LandingPages
         [SitecoreField("Other")]
         public virtual string Other { get; set; }
 
-
         // fields for template Sidebar
 
         /// <summary>
@@ -305,7 +284,6 @@ namespace CoreLib.Models.Pages.LandingPages
         /// </summary>
         [SitecoreField("Callout Type")]
         public virtual string CalloutType { get; set; }
-
 
         // fields for template Tagging
 
@@ -336,12 +314,8 @@ namespace CoreLib.Models.Pages.LandingPages
         [SitecoreField("Level")]
         public virtual string Level { get; set; }
 
-
         // fields for template Site Section
 
-
         // fields for template About Us and Blog Landing
-
-
     }
 }

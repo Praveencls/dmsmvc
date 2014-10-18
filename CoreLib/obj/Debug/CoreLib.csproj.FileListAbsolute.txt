@@ -20,3 +20,4 @@ C:\scmvc\trunk\CoreLib\bin\Debug\System.Web.Razor.xml
 C:\scmvc\trunk\CoreLib\obj\Debug\CoreLib.dll
 C:\scmvc\trunk\CoreLib\obj\Debug\CoreLib.pdb
 C:\scmvc\trunk\CoreLib\obj\Debug\CoreLib.csprojResolveAssemblyReference.cache
+C:\scmvc\trunk\CoreLib\bin\Debug\Glass.Mapper.Sc.xml

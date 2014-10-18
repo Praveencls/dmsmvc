@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CoreLib.Interface.Base;
+﻿using CoreLib.Interface.Base;
 using CoreLib.Interface.ItemTypes;
 
 namespace CoreLib.Interface.Pages.DetailPages
@@ -14,7 +9,5 @@ namespace CoreLib.Interface.Pages.DetailPages
     /// </summary>
     public partial interface IAboutUsAndBlogSubPage : IGlassBase, IContentItem
     {
-
-
     }
 }
