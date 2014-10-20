@@ -72,6 +72,9 @@
     <Reference Include="Sitecore.Glimpse">
       <HintPath>..\website\packages\Glimpse.Sitecore7.2.0.0\lib\net45\Sitecore.Glimpse.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.ItemWebApi">
+      <HintPath>..\Library\Sitecore.ItemWebApi.dll</HintPath>
+    </Reference>
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\Library\Sitecore\Sitecore.Kernel.dll</HintPath>
     </Reference>
