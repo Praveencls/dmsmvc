@@ -21,3 +21,5 @@ C:\scmvc\trunk\CoreLib\obj\Debug\CoreLib.dll
 C:\scmvc\trunk\CoreLib\obj\Debug\CoreLib.pdb
 C:\scmvc\trunk\CoreLib\obj\Debug\CoreLib.csprojResolveAssemblyReference.cache
 C:\scmvc\trunk\CoreLib\bin\Debug\Glass.Mapper.Sc.xml
+C:\scmvc\trunk\CoreLib\bin\Debug\log4net.dll
+C:\scmvc\trunk\CoreLib\bin\Debug\log4net.xml

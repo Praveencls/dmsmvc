@@ -21,6 +21,7 @@ namespace CoreLib
         /// <returns><c>True</c> if item has a valid language version, <c>false</c> otherwise.</returns>
         public static bool HasLanguageVersion(this Item item, Language language, string availableLanguages)
         {
+           
             Item itemInLang = ItemManager.GetItem(item.ID, language, Sitecore.Data.Version.Latest, item.Database);
             if (itemInLang != null && itemInLang.Versions.GetVersions().Length > 0)
             {
