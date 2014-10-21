@@ -23,3 +23,10 @@ C:\scmvc\trunk\CoreLib\obj\Debug\CoreLib.csprojResolveAssemblyReference.cache
 C:\scmvc\trunk\CoreLib\bin\Debug\Glass.Mapper.Sc.xml
 C:\scmvc\trunk\CoreLib\bin\Debug\log4net.dll
 C:\scmvc\trunk\CoreLib\bin\Debug\log4net.xml
+C:\scmvc\trunk\CoreLib\bin\Debug\EasyHttp.dll
+C:\scmvc\trunk\CoreLib\bin\Debug\JsonFx.dll
+C:\scmvc\trunk\CoreLib\bin\Debug\YouTrackSharp.dll
+C:\scmvc\trunk\CoreLib\bin\Debug\EasyHttp.pdb
+C:\scmvc\trunk\CoreLib\bin\Debug\JsonFx.xml
+C:\scmvc\trunk\CoreLib\bin\Debug\YouTrackSharp.pdb
+C:\scmvc\trunk\CoreLib\bin\Debug\Sitecore.ItemWebApi.dll

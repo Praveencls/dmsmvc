@@ -222,7 +222,9 @@
     <Content Include="App_Config\Include\Sitecore.ContentSearch.VerboseLogging.config.example" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Sitecore.ItemWebApi.config" />
+    <Content Include="App_Config\Include\Sitecore.ItemWebApi.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Sitecore.Mvc.config" />
@@ -324,6 +326,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\XMLWebApi.config" />
     <None Include="Properties\PublishProfiles\dmssitecore.pubxml" />
     <Content Include="Views\main.cshtml" />
     <Content Include="Views\PageHeader.cshtml" />

@@ -42,3 +42,12 @@ C:\scmvc\trunk\sandbox\bin\Castle.Windsor.dll
 C:\scmvc\trunk\sandbox\bin\WebActivatorEx.dll
 C:\scmvc\trunk\sandbox\bin\Glass.Mapper.Sc.CastleWindsor.dll
 C:\scmvc\trunk\sandbox\bin\CoreLib.pdb
+C:\scmvc\trunk\sandbox\bin\EasyHttp.dll
+C:\scmvc\trunk\sandbox\bin\JsonFx.dll
+C:\scmvc\trunk\sandbox\bin\Sitecore.ItemWebApi.dll
+C:\scmvc\trunk\sandbox\bin\YouTrackSharp.dll
+C:\scmvc\trunk\sandbox\bin\log4net.dll
+C:\scmvc\trunk\sandbox\bin\EasyHttp.pdb
+C:\scmvc\trunk\sandbox\bin\JsonFx.xml
+C:\scmvc\trunk\sandbox\bin\YouTrackSharp.pdb
+C:\scmvc\trunk\sandbox\bin\log4net.xml

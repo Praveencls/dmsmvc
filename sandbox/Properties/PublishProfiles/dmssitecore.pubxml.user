@@ -97,9 +97,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/25/2014 02:00:25</publishTime>
     </File>
     <File Include="App_Config/Include/Sitecore.ItemWebApi.config">
-      <publishTime>09/23/2014 03:29:55</publishTime>
+      <publishTime>10/21/2014 03:04:55</publishTime>
     </File>
     <File Include="App_Config/Include/Sitecore.Mvc.config">
+      <publishTime>09/23/2014 03:29:55</publishTime>
+    </File>
+    <File Include="App_Config/Include/Sitecore.MvcAnalytics.config">
       <publishTime>09/23/2014 03:29:55</publishTime>
     </File>
     <File Include="App_Config/Include/Sitecore.MvcAnalytics.config.disabled">
@@ -153,6 +156,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="App_Config/Include/WebDeploy.config.example">
       <publishTime>09/23/2014 03:29:55</publishTime>
     </File>
+    <File Include="App_Config/Include/XMLWebApi.config">
+      <publishTime>10/21/2014 14:22:18</publishTime>
+    </File>
     <File Include="App_Config/Include/XslExtension.config.example">
       <publishTime>09/23/2014 03:29:55</publishTime>
     </File>
@@ -196,10 +202,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/23/2014 01:15:29</publishTime>
     </File>
     <File Include="bin/CoreLib.dll">
-      <publishTime>10/18/2014 11:49:45</publishTime>
+      <publishTime>10/21/2014 20:06:13</publishTime>
     </File>
     <File Include="bin/CoreLib.pdb">
-      <publishTime>10/18/2014 11:49:44</publishTime>
+      <publishTime>10/21/2014 20:06:13</publishTime>
+    </File>
+    <File Include="bin/EasyHttp.dll">
+      <publishTime>10/20/2014 22:47:44</publishTime>
+    </File>
+    <File Include="bin/EasyHttp.pdb">
+      <publishTime>10/20/2014 22:47:44</publishTime>
     </File>
     <File Include="bin/Glass.Mapper.dll">
       <publishTime>09/23/2014 01:15:08</publishTime>
@@ -228,6 +240,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/ITHit.WebDAV.Server.dll">
       <publishTime>02/28/2014 20:26:48</publishTime>
     </File>
+    <File Include="bin/JsonFx.dll">
+      <publishTime>10/20/2014 22:47:44</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>10/19/2014 11:48:06</publishTime>
+    </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>09/22/2014 21:08:54</publishTime>
     </File>
@@ -245,6 +263,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="bin/Sitecore.GlimpsePlugins.SitecoreContext.dll">
       <publishTime>02/23/2012 18:35:56</publishTime>
+    </File>
+    <File Include="bin/Sitecore.ItemWebApi.dll">
+      <publishTime>01/28/2014 12:35:10</publishTime>
     </File>
     <File Include="bin/Sitecore.Kernel.dll">
       <publishTime>09/23/2014 02:51:49</publishTime>
@@ -283,16 +304,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/23/2014 01:15:28</publishTime>
     </File>
     <File Include="bin/website.dll">
-      <publishTime>10/18/2014 11:50:01</publishTime>
+      <publishTime>10/21/2014 20:07:33</publishTime>
     </File>
     <File Include="bin/website.pdb">
-      <publishTime>10/18/2014 11:50:00</publishTime>
+      <publishTime>10/21/2014 20:07:33</publishTime>
+    </File>
+    <File Include="bin/YouTrackSharp.dll">
+      <publishTime>10/20/2014 22:47:45</publishTime>
+    </File>
+    <File Include="bin/YouTrackSharp.pdb">
+      <publishTime>10/20/2014 22:47:45</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>09/30/2014 21:34:19</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>09/28/2014 06:56:45</publishTime>
+      <publishTime>10/20/2014 22:48:32</publishTime>
     </File>
     <File Include="Rendering/Home.cshtml">
       <publishTime>10/18/2014 11:48:29</publishTime>
